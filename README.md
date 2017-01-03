@@ -2,7 +2,7 @@
 Goal is to create resume and portfolio that are fully responsive.  Inspired by recent work with Unity.
 
 Updates as of 1/2/2017:
-*. Obtained domain matthewbiesen.com, linked html to website.
+* Obtained domain matthewbiesen.com, linked html to website.
 * Portfolio boxes now contain summary space.  Anticipating links, and Javascript to change summaries based on click/mouseover.
 * Moved name to right side ("About Matthew Biesen") in cv because name was interfering with picture and seemed out of place in the picture. 
 
