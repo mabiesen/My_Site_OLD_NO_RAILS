@@ -1,5 +1,5 @@
 # ResponsiveResume-XHTML
-Goal is to create resume and portfolio that are fully responsive.  Inspired by recent work with Unity.
+Goal is to create resume and portfolio that are fully responsive.  Inspired by recent work with Unity, an extremely versatile application that allows one to create apps for a variety of platforms.
 
 Updates as of 1/2/2017:
 * Obtained domain matthewbiesen.com, linked html to website.
