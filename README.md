@@ -10,7 +10,7 @@ Updates as of 1/2/2017:
 Anticipating:
 *  Wix to release namespace for mattbiesen.com.  Submitted request, put in ticket. Then link to matthewbiesen.com.
 *  To create index page.  Index page will make it easy to highlight major projects and provide a familiar place from and to which the user can navigate.
-*  To link Resume and Coverletter to cv page.  They will be displayed in pdf form with a print option.
+*  To link Resume and Coverletter to cv page.  They will be displayed in pdf form with a print option. Change star reference to portfolio.
 *  Provide a print option for all career-related web pages, and an easy print-all.
 *  Provide page of travel and hobbies.
 *  Provide information on the Biesen Brothers and link to website.
