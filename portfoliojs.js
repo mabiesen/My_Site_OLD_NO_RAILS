@@ -11,7 +11,7 @@ var $ardtext = $('#ardtext');
 var $gotext = $('#gotext');
 var $untext = $('#untext');
 
-var $displayarray = [$pytext, $vbtext, $jstext, $rpitext, $htmltext, $rbtext, $ardtext, $gotext, $untext];
+//var $displayarray = [$pytext, $vbtext, $jstext, $rpitext, $htmltext, $rbtext, $ardtext, $gotext, $untext];
 
 //create text variables to display upon click
 var twobreak = "</br>"	
