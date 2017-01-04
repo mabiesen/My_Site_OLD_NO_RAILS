@@ -12,6 +12,8 @@ Updates as of 1/2/2017:
 
 
 Anticipating:
+*  Fix all typos and missing spaces in portfolio
+*  Search Pis for more scripts to load to Github; currently lacking for certain languages.
 *  Wix to release namespace for mattbiesen.com.  Submitted request, put in ticket. Then link to matthewbiesen.com.
 *  To create index page.  Index page will make it easy to highlight major projects and provide a familiar place from and to which the user can navigate.
 *  To link Resume and Coverletter to cv page.  They will be displayed in pdf form with a print option. Change star reference to portfolio on CV page.
