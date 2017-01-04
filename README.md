@@ -1,9 +1,13 @@
 # ResponsiveResume-XHTML
 Goal is to create resume and portfolio that are fully responsive.  Inspired by recent work with Unity, an extremely versatile application that allows one to create apps for a variety of platforms.
 
+Update as of 1/4/2017:
+* Instructed Godaddy to associated mattbiesen.com with mattthewbiesen.com.  Not yet working.
+* Added scroll animation to porfolio.  Before update, if text was changed and scroll bar was down, scroll bar would stay down.  Now, text is scrolled to top in animation fashion.
+
 Updates as of 1/3/2017:
 * Added text and hyperlinks for portfolio projects
-* Added js to show when link is clicked
+* Added js to show when link is clicked in portfolio
 
 Updates as of 1/2/2017:
 * Obtained domain matthewbiesen.com, linked html to website.
