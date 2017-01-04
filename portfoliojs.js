@@ -129,38 +129,47 @@ function checkliclick(clickobject, listindex){
 		case "python":
 			thetext = pyarray[listindex];
 			$pytext.html(thetext);
+			$pytext.animate({ scrollTop: 0 }, "fast");
 			break;
 		case "vba":
 			thetext = vbarray[listindex];
 			$vbtext.html(thetext);
+			$vbtext.animate({ scrollTop: 0 }, "fast");
 			break;
 		case "javascript":
 			thetext = jsarray[listindex];
 			$jstext.html(thetext);
+			$jstext.animate({ scrollTop: 0 }, "fast");
 			break;
 		case "raspberrypi":
 			thetext = rparray[listindex];
 			$rpitext.html(thetext);
+			$rpitext.animate({ scrollTop: 0 }, "fast");
 			break;
 		case "html":
 			thetext = htmlarray[listindex];
 			$htmltext.html(thetext);
+			$htmltext.animate({ scrollTop: 0 }, "fast");
 			break;
 		case "ruby":
 			thetext = rbarray[listindex];
 			$rbtext.html(thetext);
+			$rbtext.animate({ scrollTop: 0 }, "fast");
 			break;
 		case "arduino":
 			thetext = ardarray[listindex];
 			$ardtext.html(thetext);
+			$ardtext.animate({ scrollTop: 0 }, "fast");
 			break;
 		case "golang":
 			thetext = goarray[listindex];
 			$gotext.html(thetext);
+			$gotext.animate({ scrollTop: 0 }, "fast");
 			break;
 		case "unity":
 			thetext = unarray[listindex];
 			$untext.html(thetext);
+			$untext.animate({ scrollTop: 0 }, "fast");
 			break;
 	}
 }
