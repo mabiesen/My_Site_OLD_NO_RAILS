@@ -1,10 +1,13 @@
 # ResponsiveResume-XHTML
-Goal is to create resume and portfolio that are fully responsive.  Inspired by recent work with Unity, an extremely versatile application that allows one to create apps for a variety of platforms.
+OLD GOAL: to create resume and portfolio that are fully responsive.  Inspired by recent work with Unity, an extremely versatile application that allows one to create apps for a variety of platforms.
+
+NEW GOAL: one-stop-shop matthewbiesen page.  This seems like a great idea as I am not very fond of social media so my webpresence is lacking in that regard.  Page will help to provide insight into my personality.
 
 Late Update 1/4/2017:
 * mattbiesen.com successfully directed to matthewbiesen.com. NOTE: As of this time, I have not updated matthewbiesen.com.
 * Project increased in scope!!! This is going to be an all-in-one Matthew Biesen website that will house my interests as well as career pursuits.
 * Added headers, pdf resume page, homepage, page for pi/arduino project pictures.  Site contains links to additional pages that have yet to be created.
+* finally got text scroll on page reload to work, but cheated slightly: used Jquery objects directly instead of citing from an array.  No matter what I tried, calls to array indexes returned object text instead of the object itself.  Tried converting text to object via $() and other methods with no success.  This was a little disheartening, I hope to find out where my code was lacking.
 
 Update as of 1/4/2017:
 * Instructed Godaddy to associated mattbiesen.com with mattthewbiesen.com.  Not yet working.
