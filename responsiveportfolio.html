@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Programming Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.visited{color: blue}
+</style>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body class="w3-light-grey">
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:100%;">
+
+<!--links-->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-teal">
+    <div class="w3-col s2">
+      <a href="../entrypage.html" class="w3-btn-block w3-teal">HOME</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="aboutmatthew.html" class="w3-btn-block w3-teal">ABOUT</a>
+    </div>
+	    <div class="w3-col s2 w3-dropdown-hover">
+      <button class="w3-btn-block w3-teal">CAREER</button>
+	  <div class="w3-dropdown-content w3-teal" style="width: 100%;">
+		    <a href="responsivecv.html">CV Page</a>
+			<a href="responsiveportfolio.html">Programming Portfolio</a>
+			<a href="resumepage.html">Data Management Resume</a>	
+	  </div>
+    </div>
+	    <div class="w3-col s2 w3-dropdown-hover">
+      <button class="w3-btn-block w3-teal">PROJECTS</button>
+	  <div class="w3-dropdown-content w3-teal" style="width: 100%;">
+		    <a href="piduino.html">Pi/Arduino</a>
+			<a href="#">Hobby/Other</a>
+	  </div>
+    </div>
+	  <!--<div class="w3-col s2 w3-dropdown-hover">
+      <button class="w3-btn-block w3-teal">PICS</button>
+	  <div class="w3-dropdown-content w3-teal" style="width: 100%;">
+		    <a href="#">Family</a>
+			<a href="#">Vacations</a>
+			<a href="#">Friends</a>
+	  </div>
+    </div>-->
+	  <div class="w3-col s2 w3-dropdown-hover">
+      <button class="w3-btn-block w3-teal">NOTES</button>
+	  <div class="w3-dropdown-content w3-teal" style="width: 100%;">
+		    <a href="#">Education</a>
+			<a href="#">Code</a>
+			<a href="#">Project</a>
+	  </div>
+    </div>	
+  </div>
+</div>
+
+
+
+
+<!--title of page-->
+<div class="w3-container w3-pale-blue w3-center" style="margin-top:4em;">
+  <h1 class="w3-text-grey w3-center">Programming Portfolio</h1>
+</div>
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third w3-padding">
+	  <div class="w3-pale-gray w3-text-grey w3-card-4">
+        <div class="w3-display-container w3-padding" style="height:12em;">
+		<div class="w3-display-top">				
+		  <h3 class="w3-text-grey w3-center">Python</h3>
+		  </div>
+		  <div class="w3-display-bottomleft w3-padding">				  
+	      <ul class="python itemlist">
+		    <li id="pyraspi" class="python">RasPi projects</li>
+			<li id="pywebscrap" class="python">Webscraping</li>
+			<li id="pyemail" class="python">Email</li>
+			<li id="pycodechal" class="python">Code Challenges</li>
+		  <ul>
+		  </div>
+		  <div class="w3-display-bottomright w3-padding w3-margin mytext" id="pytext" style="height:55%; width:50%; background-color:white; box-shadow:0.2em 0.2em 0.1em #888888; overflow-y: scroll;">
+		  I first encountered Python in High School AP Physics as a software 3d representation of Newtonian mechanics.  Rediscoverd Python in 2016 for its use in Raspberry Pi
+		  </div>			  
+	    </div>
+	</div>
+  </div>
+  
+   <div class="w3-third w3-padding">
+	  <div class="w3-pale-green w3-text-grey w3-card-4">
+        <div class="w3-display-container w3-padding" style="height:12em;">
+		<div class="w3-display-top">		
+		  <h3 class="w3-text-grey w3-center">VBA</h3>
+		  </div>
+		  <div class="w3-display-bottomleft w3-padding">			  
+	      <ul class="vba itemlist">
+		    <li id="vbfore" class="vba">Forecast Updates</li>
+			<li id="vbworkbook" class="vba">Macro Workbook</li>
+			<li id="vbgolf" class="vba">Golf Outing</li>
+			<li id="vbstudies" class="vba">Studies Summary</li>
+		  <ul>
+		  </div>
+		  <div class="w3-display-bottomright w3-padding w3-margin mytext" id="vbtext" style="height:55%; width:50%; background-color:white; box-shadow:0.2em 0.2em 0.1em #888888; overflow-y: scroll;">
+		  Learned VBA to increase the efficiency of Excel operations during my employment at NIPSCO.  This was the first language I studied in depth.
+		  </div>				  
+	    </div>
+	</div>
+  </div> 
+  
+  <div class="w3-third w3-padding">
+	  <div class="w3-pale-red w3-text-grey w3-card-4">
+        <div class="w3-display-container w3-padding" style="height:12em;">
+		<div class="w3-display-top">			
+		  <h3 class="w3-text-grey w3-center">Javascript/Jquery</h3>
+		  </div>
+		  <div class="w3-display-bottomleft w3-padding">			  
+	      <ul class="javascript itemlist">
+		    <li id="jstime" class="javascript">Timed Events</li>
+			<li id="jswebscrap" class="javascript">Webscraping</li>
+			<li id="jshh" class="javascript">Haunted House</li>
+			<li id="jsled" class="javascript">LED Display</li>
+		  <ul>
+		  </div>
+		  <div class="w3-display-bottomright w3-padding w3-margin mytext" id="jstext" style="height:55%; width:50%; background-color:white; box-shadow:0.2em 0.2em 0.1em #888888; overflow-y: scroll;">
+		  Javascript was  my second web language(after PHP).  I am quite fluent and fond of Javascript. I intend to try Javascript in Unity sometime in the near future.
+		  </div>		  		  
+	    </div>
+	</div>
+  </div>  
+  
+   <div class="w3-third w3-padding">
+	  <div class="w3-pale-blue w3-text-grey w3-card-4">
+        <div class="w3-display-container w3-padding" style="height:12em;">
+		<div class="w3-display-top">
+		  <h3 class="w3-text-grey w3-center w3-padding">Raspberry Pi</h3>
+		  </div>
+		  <div class="w3-display-bottomleft w3-padding">
+	      <ul class="raspberrypi itemlist">
+		    <li id="rpiproj" class="raspberrypi">Basic Projects</li>
+			<li id="rpiled" class="raspberrypi">LED Display</li>
+			<li id="rpidogtoy" class="raspberrypi">Laser Pointer Toy</li>
+			<li id="rpibg" class="raspberrypi">Board Game</li>
+		  <ul>
+		  </div>
+		  <div class="w3-display-bottomright w3-padding w3-margin mytext" id="rpitext" style="height:55%; width:50%; background-color:white; box-shadow:0.2em 0.2em 0.1em #888888; overflow-y: scroll;">
+		  The Raspberry Pi is a single board computer with physical computing capability.  The Raspberry Pi offered me the opportunity to experiment with electronics and programming without fear given that it only costs 35$.
+		   It is because of the Raspberry Pi that I am pursuing a career in programming today.
+		  </div>
+	    </div>
+	</div>
+  </div>   
+
+   <div class="w3-third w3-padding">
+	  <div class="w3-pale-gray w3-text-grey w3-card-4">
+        <div class="w3-display-container w3-padding" style="height:12em;">
+		<div class="w3-display-top">		
+		  <h3 class="w3-text-grey w3-center">HTML/CSS/XML</h3>
+		</div>
+		  <div class="w3-display-bottomleft w3-padding">		  
+	      <ul class="html itemlist">
+		    <li id="htmlproj" class="html">Various Projects</li>
+			<li id="htmlthis" class="html">This Website!</li>
+			<li class="html">...</li>
+			<li class="html">...</li>
+		  <ul>
+		  </div>
+		  <div class="w3-display-bottomright w3-padding w3-margin mytext" id="htmltext" style="height:55%; width:50%; background-color:white; box-shadow:0.2em 0.2em 0.1em #888888; overflow-y: scroll;">
+		  Full knowledge of HTML and strong foundation in CSS and related styling.  
+		  </div>		  
+	    </div>
+	</div>
+  </div> 
+  
+  <div class="w3-third w3-padding">
+	  <div class="w3-pale-yellow w3-text-grey w3-card-4">
+        <div class="w3-display-container w3-padding" style="height:12em;">
+		<div class="w3-display-top">			
+		  <h3 class="w3-text-grey w3-center">Ruby</h3>
+		</div>
+		  <div class="w3-display-bottomleft w3-padding">		  
+				  <ul class="ruby itemlist">
+					<li id="rbchal" class="ruby">Code Challenges</li>
+					<li class="ruby">...</li>
+					<li class="ruby">...</li>
+					<li class="ruby">...</li>
+				  </ul>
+				  </div>
+		  <div class="w3-display-bottomright w3-padding w3-margin mytext" id="rbtext" style="height:55%; width:50%; background-color:white; box-shadow:0.2em 0.2em 0.1em #888888; overflow-y: scroll;">
+		  Learned Ruby in anticipation of learning Rails.  Currently studying Ruby on Rails in Codecademy.
+		  </div>					  
+			</div>
+	    </div>
+	</div>
+  
+  <div class="w3-third w3-padding">
+	  <div class="w3-pale-red w3-text-grey w3-card-4">
+        <div class="w3-display-container w3-padding" style="height:12em;">
+		  <div class="w3-display-top">
+		  <h3 class="w3-text-grey w3-center w3-padding">Arduino</h3>
+		  </div>
+		  <div class="w3-display-bottomleft w3-padding">		  
+	      <ul class="arduino itemlist">
+		    <li id="ardanal" class="arduino">Read Analog</li>
+			<li id="ardmotor" class="arduino">Drive motors</li>
+			<li id="ardcard" class="arduino">Read Sd card</li>
+			<li class="arduino">...</li>
+		  <ul>
+		  </div>
+		  <div class="w3-display-bottomright w3-padding w3-margin mytext" id="ardtext" style="height:55%; width:50%; background-color:white; box-shadow:0.2em 0.2em 0.1em #888888; overflow-y: scroll;">
+		  Began to learn Arduino in preparation for 3d printing.  I found Arduino to be much easier to work with than Raspberry Pi and cherish the opportunity to learn some C/C++ coding.  Several projects pending.
+		  </div>		  
+	    </div>
+	</div>
+  </div>  
+  
+  <div class="w3-third w3-padding">
+	  <div class="w3-pale-yellow w3-text-grey w3-card-4">
+        <div class="w3-display-container w3-padding" style="height:12em;">
+		<div class="w3-display-top">
+		  <h3 class="w3-text-grey w3-center">Go Lang</h3>
+		  </div>
+		  <div class="w3-display-bottomleft w3-padding">			  
+	      <ul class="golang itemlist">
+		    <li id="gochal" class="golang">Code Challenges</li>
+			<li class="golang">...</li>
+			<li class="golang">...</li>
+			<li class="golang">...</li>
+		  <ul>
+		  </div>
+		  <div class="w3-display-bottomright w3-padding w3-margin mytext" id="gotext" style="height:55%; width:50%; background-color:white; box-shadow:0.2em 0.2em 0.1em #888888; overflow-y: scroll;">
+		  After 15 days of using Go Lang it is apparent that this will be my language of choice when applicable.  The language has a lot to offer and helps to enforce good programming practices.
+		  </div>		  
+	    </div>
+	</div>
+  </div>  
+  
+  <div class="w3-third w3-padding">
+	  <div class="w3-pale-green w3-text-grey w3-card-4">
+        <div class="w3-display-container w3-padding" style="height:12em;">
+		  <div class="w3-display-top">
+		  <h3 class="w3-text-grey w3-center">Unity(C#)</h3>
+		  </div>	  
+		  <div class="w3-display-bottomleft w3-padding">		  
+	      <ul class="unity itemlist">
+		    <li id="unball" class="unity">Roll A Ball Variation</li>
+			<li class="unity">...</li>
+			<li class="unity">...</li>
+			<li class="unity">...</li>
+		  <ul>
+		  </div>
+		  <div class="w3-display-bottomright w3-padding w3-margin mytext" id="untext" style="height:55%; width:50%; background-color:white; box-shadow:0.2em 0.2em 0.1em #888888; overflow-y: scroll;">
+		  Completed unity roll-a-ball tutorial and conducted some research on Unity projects.  Upcoming 2d project.
+		  </div>		  		  
+	    </div>
+	</div>
+  </div>
+
+
+
+
+  
+</div>
+</div>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on my professional sites.</p>
+  <p class="w3-left">Back</p>
+  <a href="https://www.linkedin.com/in/matthew-biesen-07336755?trk=hp-identity-name" class="fa fa-linkedin w3-hover-text-indigo w3-large"></a>
+  <a href="https://github.com/mabiesen" class="fa fa-github w3-hover-text-indigo w3-large"></a>  
+  <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+  <script src="../javascript/portfoliojs.js"></script>
+
+</body>
+</html>
