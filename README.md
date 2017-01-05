@@ -4,7 +4,7 @@ Files are now active at the following location: www.matthewbiesen.com
 
 OLD GOAL: to create resume and portfolio that are fully responsive.  Inspired by recent work with Unity, an extremely versatile application that allows one to create apps for a variety of platforms.
 
-NEW GOAL: one-stop-shop matthewbiesen page.  This seems like a great idea as I am not very fond of social media so my webpresence is lacking in that regard.  Page will help to provide insight into my personality.
+NEW GOAL: one-stop-shop matthewbiesen page.  This seems like a great idea as I am not very fond of social media so my webpresence is lacking in that regard.  Page will help to provide insight into my personality and provide new web challenges, as well as allow a display of projects for non-github users.
 
 Update 1/5/2017:
 * Added button to allow direct viewing of resume pdf on resume page
