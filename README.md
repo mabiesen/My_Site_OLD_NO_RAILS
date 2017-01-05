@@ -9,7 +9,9 @@ NEW GOAL: one-stop-shop matthewbiesen page.  This seems like a great idea as I a
 Update 1/5/2017:
 * Added button to allow direct viewing of resume pdf on resume page
 * Created Piduino html for displaying raspberry pi/arduino projects
-* 
+* Created About page to display some information about me
+* Commented out pics button at top of page as the number of buttons caused clashing on smaller screens.  Probably should adjust w3 's' format for new number of columns.
+
 
 Late Update 1/4/2017:
 * mattbiesen.com successfully directed to matthewbiesen.com. NOTE: As of this time, I have not updated matthewbiesen.com.
