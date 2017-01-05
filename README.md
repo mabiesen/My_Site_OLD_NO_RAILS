@@ -25,10 +25,9 @@ Updates as of 1/2/2017:
 
 Anticipating:
 *  Fix all typos and missing spaces in portfolio
-*  Search Pis for more scripts to load to Github; currently lacking for certain languages.
-*  Wix to release namespace for mattbiesen.com.  Submitted request, put in ticket. Then link to matthewbiesen.com.
-*  To create index page.  Index page will make it easy to highlight major projects and provide a familiar place from and to which the user can navigate.
-*  To link Resume and Coverletter to cv page.  They will be displayed in pdf form with a print option. Change star reference to portfolio on CV page.
+*  Search Pis for more scripts to load to Github; currently lacking for certain languages
+*  To provide print option for resume on cv page and resume page.
 *  Provide a print option for all career-related web pages, and an easy print-all.
 *  Provide page of travel and hobbies.
 *  Provide information on the Biesen Brothers and link to website.
+*  Obtain pictures of projects and family/friends/etc.  Need to profile pic and biesen brothers pic.
