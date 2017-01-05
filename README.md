@@ -11,7 +11,7 @@ Update 1/5/2017:
 * Created Piduino html for displaying raspberry pi/arduino projects
 * Created About page to display some information about me
 * Commented out pics button at top of page as the number of buttons caused clashing on smaller screens.  Probably should adjust w3 's' format for new number of columns.
-* **Changed file references for neater CPanel file structure**
+* **Changed file references for neater CPanel file structure.  The files in this directory currently do not reflect that structure**
 
 
 Late Update 1/4/2017:
