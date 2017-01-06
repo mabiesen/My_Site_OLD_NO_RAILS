@@ -1,10 +1,16 @@
 # ResponsiveResume-XHTML
 
-Files are now active at the following location: www.matthewbiesen.com
+Files are now active at the following location: www.matthewbiesen.com.  
 
 OLD GOAL: to create resume and portfolio that are fully responsive.  Inspired by recent work with Unity, an extremely versatile application that allows one to create apps for a variety of platforms.
 
 NEW GOAL: one-stop-shop matthewbiesen page.  This seems like a great idea as I am not very fond of social media so my webpresence is lacking in that regard.  Page will help to provide insight into my personality and provide new web challenges, as well as allow a display of projects for non-github users.
+
+Update 1/6/2017:
+* Learned how to download backups from Cpanel and upload whole directories to Github.  BIG TIMESAVER!!!
+* Altered file structure (again) unnecessarily to accomodate backups(cpanel offers three backup links, I clicked the wrong one the first time and the only folders backed up were CGI and Pages, folders that were created by Cpanel.  I was lead to believe all pages must be located in the Pages folder, I was wrong)
+* Notes and Pics are removed from top navigation to accomodate mobile users. Projects changed to Project to accomodate mobile users as well, but this seems like bad tactic; to look into alternative solution.  Additionally, altered the structure of the Portfolio page to accomodate mobile users:  the text boxes now disappear on click and prompt users to click project links.
+* Altered footer to remove tribute to W3 as W3 does not require credit.
 
 Update 1/5/2017:
 * Added button to allow direct viewing of resume pdf on resume page
