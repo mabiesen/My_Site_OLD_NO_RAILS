@@ -9,9 +9,9 @@ NEW GOAL: one-stop-shop matthewbiesen page.  This seems like a great idea as I a
 Update 1/6/2017:
 * Learned how to download backups from Cpanel and upload whole directories to Github.  BIG TIMESAVER!!!  Additionally, retains file structure.  There is an option to overwrite files on Cpanel, I am probably able to upload whole directores to Cpanel but I have not tried.
 * Altered file structure (again) unnecessarily to accomodate backups(cpanel offers three backup links, I clicked the wrong one the first time and the only folders backed up were CGI and Pages, folders that were created by Cpanel.  I was lead to believe all pages must be located in the Pages folder, I was wrong)
-* Notes and Pics are removed from top navigation to accomodate mobile users. Projects changed to Project to accomodate mobile users as well, but this seems like bad tactic; to look into alternative solution.  Additionally, altered the structure of the Portfolio page to accomodate mobile users:  the text boxes now disappear on click and prompt users to click project links.
+* Notes and Pics are removed from top navigation to accomodate mobile users. Projects changed to Project to accomodate mobile users as well, but this seems like bad tactic; to look into alternative solution shrinking 'button' width.  Additionally, altered the structure of the Portfolio page to accomodate mobile users:  the text boxes now disappear on click and prompt users to click project links.
 * Altered footer to remove tribute to W3 as W3 does not require credit. Also removed back button as its unlikely to be used, added email address.
-* **I really want a page display/test PHP ability with a database. Used PHP before, but not in conjunction with database.  Maybe this will be my notes page or contact page.**
+* **I really want a page display/test PHP ability with a database. Used PHP before, but not in conjunction with database.  Maybe this will be my contacts page or potentially a Reddit challenge page(pull in reddit challenges with PHP, provide solutions on same page.  Info logged to and recalled from database.  Would want password for entries and control over input to format as code without risking html integrity.  Could potentially use xml solution seen on Apache getting started page.)**
 
 Update 1/5/2017:
 * Added button to allow direct viewing of resume pdf on resume page
