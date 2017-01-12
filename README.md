@@ -1,4 +1,4 @@
-# ResponsiveResume-XHTML
+# ResponsiveResume-HTML
 
 Files are now active at the following location: www.matthewbiesen.com.  
 
