@@ -1,10 +1,7 @@
 # ResponsiveResume-HTML
 
 #THIS PROJECT SHOULD BE CONSIDERED CLOSED. CONVERTING TO RAILS, SEE THE FOLLOWING REPOSITORY
-https://github.com/mabiesen/My_Website_On_Rails
-
-
-Files are now active at the following location: www.matthewbiesen.com.  
+https://github.com/mabiesen/My_Rails_Website 
 
 OLD GOAL: to create resume and portfolio that are fully responsive.  Inspired by recent work with Unity, an extremely versatile application that allows one to create apps for a variety of platforms.
 
