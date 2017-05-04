@@ -1,6 +1,6 @@
 # ResponsiveResume-HTML
 
-#THIS PROJECT SHOULD BE CONSIDERED CLOSED. CONVERTING TO RAILS, SEE THE FOLLOWING REPOSITORY
+# THIS PROJECT SHOULD BE CONSIDERED CLOSED. CONVERTING TO RAILS, SEE THE FOLLOWING REPOSITORY
 www.matthewbiesen.com
 
 OLD GOAL: to create resume and portfolio that are fully responsive.  Inspired by recent work with Unity, an extremely versatile application that allows one to create apps for a variety of platforms.
